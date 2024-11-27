@@ -1,0 +1,495 @@
+{
+	"switchKey": "Key_QuoteLeft",
+	"mouseMoveMap": {
+		"startPos": {
+			"x": 0.5,
+			"y": 0.5
+		},
+		"speedRatioX": 10,
+		"speedRatioY": 5.625,
+		"smallEyes": {
+			"comment": "free look",
+			"type": "KMT_CLICK",
+			"key": "Key_Alt",
+			"pos": {
+				"x": 0.783333,
+				"y":  0.310905
+			},
+			"switchMap": false
+		},
+		"speedRatio": 10
+	},
+	"keyMapNodes": [
+		{
+			"comment": "wasd",
+			"type": "KMT_STEER_WHEEL",
+			"centerPos": {
+				"x": 0.161,
+				"y": 0.752
+			},
+			"leftOffset": 0.2,
+			"rightOffset": 0.2,
+			"upOffset": 0.3,
+			"downOffset": 0.2,
+			"leftKey": "Key_A",
+			"rightKey": "Key_D",
+			"upKey": "Key_W",
+			"downKey": "Key_S"
+		},
+		{
+			"comment": "exit",
+			"type": "KMT_CLICK",
+			"key": "Key_Escape",
+			"pos": {
+				"x": 0.98,
+				"y": 0.05
+			},
+			"switchMap": false
+		},
+		{
+			"comment": "mark location",
+			"type": "KMT_DRAG",
+			"key": "MidButton",
+			"startPos": {
+					"x": 0.879167,
+					"y": 0.364269
+			},
+			"endPos": {
+				"x": 0.96,
+				"y": 0.02
+			}
+		},
+		{
+			"comment": "Interact",
+			"type": "KMT_CLICK_MULTI",
+			"key": "Key_F",
+			"clickNodes": [
+				{
+					"delay": 0,
+					"pos": {
+						"x": 0.705208,
+						"y": 0.424594
+					},
+					"switchMap": false
+				},
+				{
+					"delay": 0,
+					"pos": {
+						"x":  0.859375,
+						"y": 0.450116
+					},
+					"switchMap": false
+				},
+                {
+					"delay": 0,
+					"pos": {
+						"x":  0.7,
+						"y": 0.24826
+					},
+					"switchMap": false
+				},
+                {
+					"delay": 0,
+					"pos": {
+						"x":   0.5,
+						"y": 0.610209
+					},
+					"switchMap": false
+				}
+			]
+		},
+		{
+			"comment": "Map",
+			"type": "KMT_CLICK",
+			"key": "Key_Tab",
+			"pos": {
+				"x": 0.939583,
+				"y": 0.0510441
+			},
+			"switchMap": false
+		},
+		{
+			"comment": "Fast Sprint",
+			"type": "KMT_CLICK_MULTI",
+			"key": "Key_Shift",
+			"clickNodes": [
+				{
+					"delay": 0,
+					"pos": {
+						"x":  0.804167,
+						"y": 0.211137
+					},
+					"switchMap": false
+				},
+				{
+					"delay": 0,
+					"pos": {
+						"x":  0.804167,
+						"y": 0.211137
+					},
+					"switchMap": false
+				}
+			]
+		},
+		{
+			"comment": "Remove Bag",
+			"type": "KMT_DRAG",
+			"key": "Key_T",
+			"startPos": {
+					"x": 0.64,
+					"y": 0.24
+			},
+			"endPos": {
+				"x": 0.6,
+				"y": 0.2
+			}
+		},
+		{
+			"comment": "Bag",
+			"type": "KMT_CLICK",
+			"key": "Key_CapsLock",
+			"pos": {
+				"x": 0.0916667,
+				"y":  0.909513
+			},
+			"switchMap": false
+		},
+		{
+			"comment": "Pickup1",
+			"type": "KMT_CLICK",
+			"key": "Key_5",
+			"pos": {
+				"x": 0.5,
+				"y": 0.7
+			},
+			"switchMap": false
+		},
+		{
+			"comment": "Pickup2",
+			"type": "KMT_CLICK",
+			"key": "Key_6",
+			"pos": {
+				"x": 0.5,
+				"y": 0.8
+			},
+			"switchMap": false
+		},
+		{
+			"comment": "Crate vopne",
+			"type": "KMT_CLICK",
+			"key": "Key_V",
+			"pos": {
+				"x": 0.72,
+				"y": 0.4
+			},
+			"switchMap": false
+		},
+		{
+			"comment": "Heal",
+			"type": "KMT_CLICK",
+			"key": "Key_X",
+			"pos": {
+				"x": 0.346875,
+				"y": 0.930394
+			},
+			"switchMap": false
+		},
+		{
+			"comment": "Revive",
+			"type": "KMT_CLICK",
+			"key": "Key_H",
+			"pos": {
+				"x": 0.5,
+				"y": 0.45
+			},
+			"switchMap": false
+		},
+		{
+			"comment": "Heal select",
+			"type": "KMT_CLICK",
+			"key": "Key_N",
+			"pos": {
+				"x": 0.43,
+				"y": 0.84
+			},
+			"switchMap": false
+		},
+		{
+			"comment": "Nade",
+			"type": "KMT_CLICK",
+			"key": "Key_G",
+			"pos": {
+				"x": 0.653125,
+				"y": 0.930394
+			},
+			"switchMap": false
+		},
+		{
+			"comment": "Nade Select",
+			"type": "KMT_CLICK",
+			"key": "Key_M",
+			"pos": {
+				"x": 0.56,
+				"y": 0.84
+			},
+			"switchMap": false
+		},
+		{
+			"comment": "jump and brake",
+			"type": "KMT_CLICK",
+			"key": "Key_Space",
+			"pos": {
+				"x": 0.929167,
+				"y": 0.679814
+			},
+			"switchMap": false
+		},
+		{
+			"comment": "prone",
+			"type": "KMT_CLICK",
+			"key": "Key_Z",
+			"pos": {
+				"x": 0.917708,
+				"y":  0.9350350
+			},
+			"switchMap": false
+		},
+		{
+			"comment": "Prone",
+			"type": "KMT_CLICK",
+			"key": "Key_C",
+			"pos": {
+				"x": 0.2,
+				"y": 0.0
+			},
+			"switchMap": false
+		},
+		{
+			"comment": "Couch",
+			"type": "KMT_CLICK",
+			"key": "Key_Control",
+			"pos": {
+				"x": 0.3,
+				"y": 0.2
+			},
+			"switchMap": false
+		},
+		{
+			"comment": "left peek",
+			"type": "KMT_CLICK",
+			"key": "Key_Q",
+			"pos": {
+				"x": 0.15,
+				"y": 0.359629
+			},
+			"switchMap": false
+		},
+		{
+			"comment": "right peek",
+			"type": "KMT_CLICK",
+			"key": "Key_E",
+			"pos": {
+				"x": 0.210417,
+				"y": 0.361949
+			},
+			"switchMap": false
+		},
+		{
+			"comment": "Primary weapon",
+			"type": "KMT_CLICK",
+			"key": "Key_1",
+			"pos": {
+				"x": 0.457292,
+				"y": 0.897912
+			},
+			"switchMap": false
+		},
+		{
+			"comment": "Secondary weapon",
+			"type": "KMT_CLICK",
+			"key": "Key_2",
+			"pos": {
+				"x": 0.555208,
+				"y": 0.900232
+			},
+			"switchMap": false
+		},
+		{
+			"comment": "Pistol",
+			"type": "KMT_CLICK",
+			"key": "Key_3",
+			"pos": {
+				"x": 0.73,
+				"y": 0.8
+			},
+			"switchMap": false
+		},
+		{
+			"comment": "Firemode both weapons",
+			"type": "KMT_CLICK_MULTI",
+			"key": "Key_B",
+			"clickNodes": [
+				{
+					"delay": 0,
+					"pos": {
+						"x": 0.6,
+						"y": 0.73
+					},
+					"switchMap": false
+				},
+				{
+					"delay": 0,
+					"pos": {
+						"x": 0.6,
+						"y": 0.87
+					},
+					"switchMap": false
+				}
+			]
+		},
+		{
+			"comment": "Fire and car boost",
+			"type": "KMT_CLICK",
+			"key": "LeftButton",
+			"pos": {
+				"x": 0.08541674,
+				"y": 0.508121
+			},
+			"switchMap": false
+		},
+		{
+			"comment": "Reload",
+			"type": "KMT_CLICK",
+			"key": "Key_R",
+			"pos": {
+				"x": 0.776042,
+				"y": 0.935035
+			},
+			"switchMap": false
+		},
+		{
+			"comment": "Scope hold",
+			"type": "KMT_CLICK",
+			"key": "RightButton",
+			"pos": {
+				"x": 0.931253,
+				"y":  0.522042
+			},
+			"switchMap": false
+		},
+		{
+			"comment": "map zoom out",
+			"type": "KMT_CLICK",
+			"key": "Key_Minus",
+			"pos": {
+				"x": 0.97,
+				"y": 0.76
+			},
+			"switchMap": false
+		},
+		{
+			"comment": "map zoom in",
+			"type": "KMT_CLICK",
+			"key": "Key_Plus",
+			"pos": {
+				"x": 0.97,
+				"y": 0.25
+			},
+			"switchMap": false
+		},
+		{
+			"comment": "mic on",
+			"type": "KMT_CLICK_MULTI",
+			"key": "Key_F1",
+			"clickNodes": [
+				{
+					"delay": 0,
+					"pos": {
+						"x": 0.98,
+						"y": 0.18
+					},
+					"switchMap": false
+				},
+				{
+					"delay": 50,
+					"pos": {
+						"x": 0.92,
+						"y": 0.2
+					},
+					"switchMap": false
+				}
+			]
+		},
+		{
+			"comment": "mic off",
+			"type": "KMT_CLICK_MULTI",
+			"key": "Key_F2",
+			"clickNodes": [
+				{
+					"delay": 0,
+					"pos": {
+						"x": 0.98,
+						"y": 0.18
+					},
+					"switchMap": false
+				},
+				{
+					"delay": 50,
+					"pos": {
+						"x": 0.94,
+						"y": 0.2
+					},
+					"switchMap": false
+				}
+			]
+		},
+		{
+			"comment": "team sound on",
+			"type": "KMT_CLICK_MULTI",
+			"key": "Key_F3",
+			"clickNodes": [
+				{
+					"delay": 0,
+					"pos": {
+						"x": 0.98,
+						"y": 0.11
+					},
+					"switchMap": false
+				},
+				{
+					"delay": 50,
+					"pos": {
+						"x": 0.9,
+						"y": 0.1
+					},
+					"switchMap": false
+				}
+			]
+		},
+		{
+			"comment": "team sound off",
+			"type": "KMT_CLICK_MULTI",
+			"key": "Key_F4",
+			"clickNodes": [
+				{
+					"delay": 0,
+					"pos": {
+						"x": 0.98,
+						"y": 0.11
+					},
+					"switchMap": false
+				},
+				{
+					"delay": 50,
+					"pos": {
+						"x": 0.92,
+						"y": 0.13
+					},
+					"switchMap": false
+				}
+			]
+		}
+
+
+	]
+}
